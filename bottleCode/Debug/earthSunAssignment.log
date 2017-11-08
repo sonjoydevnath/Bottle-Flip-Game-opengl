@@ -1,0 +1,20 @@
+﻿Build started 5/26/2017 12:40:47 PM.
+     1>Project "C:\Users\Sonjoy DEVNATH\documents\visual studio 2013\Projects\earthSunAssignment\earthSunAssignment\earthSunAssignment.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (earthSunAssignment.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\AIUB\Graphics\LAB-1-sec-F\gl_files" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt imageloader.cpp Sonjoy.cpp
+         Skipping... (no relevant changes detected)
+         Sonjoy.cpp
+         imageloader.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\earthSunAssignment.res" earthSunAssignment.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sonjoy DEVNATH\documents\visual studio 2013\Projects\earthSunAssignment\Debug\Bottol Flip.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\AIUB\Graphics\LAB-1-sec-F\gl_files" glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sonjoy DEVNATH\documents\visual studio 2013\Projects\earthSunAssignment\Debug\Bottol Flip.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sonjoy DEVNATH\documents\visual studio 2013\Projects\earthSunAssignment\Debug\Bottol Flip.lib" /MACHINE:X86 Debug\earthSunAssignment.res
+         Debug\imageloader.obj
+         Debug\Sonjoy.obj
+         earthSunAssignment.vcxproj -> C:\Users\Sonjoy DEVNATH\documents\visual studio 2013\Projects\earthSunAssignment\Debug\Bottol Flip.exe
+     1>Done Building Project "C:\Users\Sonjoy DEVNATH\documents\visual studio 2013\Projects\earthSunAssignment\earthSunAssignment\earthSunAssignment.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.72

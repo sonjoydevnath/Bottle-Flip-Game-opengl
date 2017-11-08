@@ -1,0 +1,4 @@
+1.First open this project in Visual Studio clicking " BottolFlip.sln ".
+2.Add glut librarys to this perticular project using properties.For this saw slide "glut include"
+3.Add image header from the file.
+4.Copy the image path link and put that into the coding portion where the path link has been given.

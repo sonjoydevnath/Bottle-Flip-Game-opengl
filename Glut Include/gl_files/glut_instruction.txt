@@ -1,0 +1,34 @@
+Unzip glut-3.7.6-bin.zip and you will get 
+
+1. glut.h
+2. glut32.dll
+3. glut32.lib
+
+
+Visual Studio 2010
+Windows (7/8)
+====================
+
+On 32bit versions of windows:
+        copy glut.h in include/GL folder to C:\Program Files\Microsoft SDKs\Windows\v7.0A\Include\gl
+        copy glut32.lib in lib folder to C:\Program Files\Microsoft SDKs\Windows\v7.0A\Lib
+        copy glut32.dll to C:\windows\system32 
+On 64bit versions of windows:
+        copy glut.h in include/GL folder to C:\Program Files(x86)\Microsoft SDKs\Windows\v7.0A\Include\gl
+        copy glut32.lib in lib folder to C:\Program Files(x86)\Microsoft SDKs\Windows\v7.0A\Lib
+        copy glut32.dll to C:\windows\SysWOW64 
+
+
+Visual Studio 2012
+Windows (7/8)
+====================
+
+On 32bit versions of windows:
+        copy glut.h in include/GL folder to C:\Program Files\Microsoft Visual Studio 11.0\VC\include\gl
+        copy glut32.lib in lib folder to C:\Program Files\Microsoft Visual Studio 11.0\VC\lib
+        copy glut32.dll to C:\windows\system32 
+On 64bit versions of windows:
+        copy glut.h in include/GL folder to C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\gl
+        copy glut32.lib in lib folder to C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\amd64
+	copy glut32.lib in lib folder to C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib
+        copy glut32.dll to C:\windows\SysWOW64 

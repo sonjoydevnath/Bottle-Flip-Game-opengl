@@ -1,0 +1,32 @@
+#include <gl/glut.h>
+
+void Draw() {
+	glClear(GL_COLOR_BUFFER_BIT);
+	glColor3f(1.0, 1.0, 1.0);
+	glPointSize(10); 
+	glBegin(GL_POINTS);
+	
+		glVertex2i(125, 125);
+
+	glEnd();
+	glFlush(); // glFlush() is generally called at the end of a sequence of drawing commands to ensure all objects in the scene are drawn before beginning to accept user input. 
+}
+
+void Initialize() {
+	glClearColor(0.0, 0.0, 0.0, 0.0);
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	gluOrtho2D(0, 250, 0, 250); // left, right, bottom, top
+}
+
+int main(int iArgc, char** cppArgv) {
+	glutInit(&iArgc, cppArgv);
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+	glutInitWindowSize(250, 250);
+	glutInitWindowPosition(400, 200);
+	glutCreateWindow("graphics lab");
+	Initialize();
+	glutDisplayFunc(Draw);
+	glutMainLoop();
+	return 0;
+}
